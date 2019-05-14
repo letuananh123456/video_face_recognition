@@ -1,0 +1,14 @@
+Cách chạy:
+
+Khi thêm 1 người mới vào tạo 1 thư mục trong thư mục dataset và bỏ ảnh vaào (ảnh có mặt chụp nhiều góc chuẩn chuẩn tý)
+
+Bước 2: Chạy file trích chọn đặc trưng của anh bằng lệnh
+
+ python extract_embeddings.py
+
+Bước 3: Train lại model bằng lệnh 
+python train_model.py
+
+Bước 4: chạy file 
+
+python recognize_video.py
